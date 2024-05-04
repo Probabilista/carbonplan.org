@@ -1,5 +1,4 @@
 import {
-  Layout,
   Heading,
   Row,
   Column,
@@ -8,6 +7,8 @@ import {
   Link,
   formatDate,
 } from '@carbonplan/components'
+
+import { Layout } from '../components/layout'
 
 import { keyframes } from '@emotion/react'
 import Splash from '../components/splash'
@@ -37,8 +38,8 @@ const sx = {
 const Index = () => {
   return (
     <Layout
-      links={'homepage'}
-      title={'CarbonPlan'}
+      links={'accueil'}
+      title={'Balamer'}
       description={
         'Improving the transparency and scientific integrity of climate solutions with open data and tools.'
       }
@@ -88,13 +89,11 @@ const Index = () => {
           <Box sx={{ mt: ['12px', 4, 4, 5] }}>
             <Row columns={[6, 5, 6, 6]}>
               <Column as='nav' start={[1]} width={[6, 6, 6, 6]}>
-                <InternalNav href={'/about'}>About</InternalNav>
-                <InternalNav href={'/research'}>Research</InternalNav>
+                <InternalNav href={'/about'}>A propos</InternalNav>
+                <InternalNav href={'/research'}>Recherche</InternalNav>
                 <InternalNav href={'/blog'}>Blog</InternalNav>
-                <InternalNav href={'/press'}>Press</InternalNav>
-                <InternalNav href={'/team'}>Team</InternalNav>
                 <InternalNav href={'/donate'} final>
-                  Donate
+                  Contact
                 </InternalNav>
               </Column>
             </Row>
