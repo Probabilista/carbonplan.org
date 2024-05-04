@@ -30,13 +30,13 @@ const Footer = () => {
               EMAIL
             </Box>
             <Link
-              href='mailto:hello@carbonplan.org'
+              href='mailto:contact@balamer.fr'
               sx={{
                 textDecoration: 'none',
                 fontSize: [2, 2, 2, 3],
               }}
             >
-              hello@carbonplan.org
+              contact@balamer.fr
             </Link>
           </Box>
         </Column>
@@ -71,7 +71,7 @@ const Footer = () => {
                 fontSize: [2, 2, 2, 3],
               }}
             >
-              Subscribe
+              S'abonner
             </Link>
           </Box>
         </Column>
@@ -88,8 +88,8 @@ const Footer = () => {
                 color: 'secondary',
               }}
             >
-              CarbonPlan is a registered nonprofit public benefit corporation in
-              California with 501(c)(3) status.
+              Balamer est enregistrée à l'ORIAS sous le numéro 23002006 et agrée
+              par l'Autorité des Marchés Finançiers.
             </Box>
           </Box>
         </Column>
@@ -121,7 +121,7 @@ const Footer = () => {
                 letterSpacing: 'mono',
               }}
             >
-              (c) {getCurrentYear()} CARBONPLAN
+              (c) {getCurrentYear()} Balamer
             </Box>
           </Box>
         </Column>
@@ -157,7 +157,7 @@ const Footer = () => {
                   display: 'block',
                 }}
               >
-                READ OUR TERMS
+                Mentions légales
               </Box>
             </NextLink>
           </Box>

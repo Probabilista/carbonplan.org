@@ -67,7 +67,7 @@ const Meta = ({ title, description, card, url }) => {
       <meta name='theme-color' content={theme.colors.background} />
       <meta
         name='color-scheme'
-        content={colorMode === 'light' ? 'light' : 'dark'}
+        content={colorMode === 'light' ? 'light' : 'light'}
       />
       <link
         rel='mask-icon'

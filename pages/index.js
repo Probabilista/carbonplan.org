@@ -1,14 +1,6 @@
-import {
-  Heading,
-  Row,
-  Column,
-  Callout,
-  Button,
-  Link,
-  formatDate,
-} from '@carbonplan/components'
+import { Heading, Row, Column, Callout, Button, Link, formatDate } from '../src'
 
-import { Layout } from '../components/layout'
+import { Layout } from '../src'
 
 import { keyframes } from '@emotion/react'
 import Splash from '../components/splash'
@@ -120,9 +112,7 @@ const Index = () => {
                 flexWrap: 'wrap',
               }}
             >
-              <Box sx={{ width: '100%', mt: [0, 0, '-2px', '-4px'] }}>
-                <WelcomeArrow />
-              </Box>
+              <Box sx={{ width: '100%', mt: [0, 0, '-2px', '-4px'] }}></Box>
               <Box
                 sx={{
                   width: '100%',
