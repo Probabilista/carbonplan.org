@@ -128,7 +128,7 @@ const Header = ({ status, mode, nav, menuItems }) => {
           {(mode == 'homepage' || mode == 'local') && (
             <NextLink href='/' passHref>
               <Link
-                aria-label='CarbonPlan Homepage'
+                aria-label='Accueil'
                 sx={{
                   display: 'block',
                 }}
