@@ -38,10 +38,10 @@ const sx = {
 }
 
 const links = [
-  { url: 'about', display: 'About' },
-  { url: 'research', display: 'Research' },
+  { url: 'about', display: 'A propos' },
+  { url: 'research', display: 'Recherche' },
   { url: 'blog', display: 'Blog' },
-  { url: 'press', display: 'Press' },
+  { url: 'press', display: 'Contact' },
 ]
 
 const HoverArrow = () => {

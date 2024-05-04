@@ -20,7 +20,7 @@ const Layout = ({
   nav,
   settings,
   footer = true,
-  header = true,
+  header = false,
   metadata = 'mouse',
   links = 'remote',
   dimmer = 'bottom',

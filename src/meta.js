@@ -12,7 +12,7 @@ const Meta = ({ title, description, card, url }) => {
   if (!title) {
     console.warn('a custom title should be used for search engine optimization')
   }
-  const titleProp = title || 'CarbonPlan'
+  const titleProp = title || 'Balamer'
   const descriptionProp =
     description ||
     'Improving the transparency and scientific integrity of climate solutions with open data and tools.'
@@ -67,7 +67,7 @@ const Meta = ({ title, description, card, url }) => {
       <meta name='theme-color' content={theme.colors.background} />
       <meta
         name='color-scheme'
-        content={colorMode === 'light' ? 'light' : 'light'}
+        content={colorMode === 'light' ? 'light' : 'dark'}
       />
       <link
         rel='mask-icon'
