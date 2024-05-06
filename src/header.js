@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { default as NextLink } from 'next/link'
 import { Box, Flex, Container, Link } from 'theme-ui'
 import { Arrow } from '@carbonplan/icons'
-import Logo from './logo'
+import Logo from '../src/logo.js'
 import Row from './row'
 import Column from './column'
 import Menu from './menu'
@@ -38,10 +38,10 @@ const sx = {
 }
 
 const links = [
-  { url: 'about', display: 'A propos' },
-  { url: 'research', display: 'Recherche' },
+  { url: 'about', display: 'About' },
+  { url: 'research', display: 'Research' },
   { url: 'blog', display: 'Blog' },
-  { url: 'press', display: 'Contact' },
+  { url: 'press', display: 'Press' },
 ]
 
 const HoverArrow = () => {
@@ -128,7 +128,7 @@ const Header = ({ status, mode, nav, menuItems }) => {
           {(mode == 'homepage' || mode == 'local') && (
             <NextLink href='/' passHref>
               <Link
-                aria-label='Accueil'
+                aria-label='CarbonPlan Homepage'
                 sx={{
                   display: 'block',
                 }}

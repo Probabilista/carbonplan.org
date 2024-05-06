@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { useThemeUI, Container, Flex, Box } from 'theme-ui'
 import Meta from './meta'
-import Header from './header'
+import Header from '../src/header'
 import Footer from './footer'
 import Dimmer from './dimmer'
 import Metadata from './metadata'
@@ -20,7 +20,7 @@ const Layout = ({
   nav,
   settings,
   footer = true,
-  header = false,
+  header = true,
   metadata = 'mouse',
   links = 'remote',
   dimmer = 'bottom',
