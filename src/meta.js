@@ -12,7 +12,7 @@ const Meta = ({ title, description, card, url }) => {
   if (!title) {
     console.warn('a custom title should be used for search engine optimization')
   }
-  const titleProp = title || 'Balamer'
+  const titleProp = title || 'CarbonPlan'
   const descriptionProp =
     description ||
     'Improving the transparency and scientific integrity of climate solutions with open data and tools.'

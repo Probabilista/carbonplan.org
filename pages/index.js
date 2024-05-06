@@ -30,8 +30,8 @@ const sx = {
 const Index = () => {
   return (
     <Layout
-      links={'accueil'}
-      title={'Balamer'}
+      links={'homepage'}
+      title={'CarbonPlan'}
       description={
         'Improving the transparency and scientific integrity of climate solutions with open data and tools.'
       }
