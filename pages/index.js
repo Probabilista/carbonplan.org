@@ -117,28 +117,34 @@ const Index = () => {
                   lineHeight: 'heading',
                 }}
               >
-                We’re a nonprofit that analyzes climate solutions based on the
-                best available science and data.
+                Investir, c'est simple. Les impôts, et votre situation
+                personnelle, moins.
               </Box>
             </Flex>
           </Column>
           <Column start={[1, 7]} width={[6, 5]}>
             <Box>
               <Box as='p' variant='styles.p' sx={{ mt: [0] }}>
-                Addressing the climate crisis requires action on several fronts.
-                In addition to rapidly achieving deep emission reductions, we
-                also need gigaton-scale carbon removal and sound strategies for
-                adapting to climate change. Our solutions must respect science
-                and support just outcomes. We no longer have time for approaches
-                that don’t work.
+                Contrairement à ce qui se fait traditionnellement, Balamer
+                facture au forfait - sans commissions, ni rétrocessions - un
+                service de conseil en investissement adapté à votre situation et
+                à vos problématiques.
               </Box>
               <Box as='p' variant='styles.p' sx={{ mb: [0] }}>
-                Our <Link href='/team'>team</Link> analyzes the design and
-                implementation of climate programs across the public and private
-                sectors. Our work focuses primarily on carbon offsets, carbon
-                removal, and climate risks. In all three areas, we aim to ensure
-                the scientific integrity and transparency of climate services
-                and solutions.
+                Balamer s'appuie sur de la recherche quantitative et l'analyse
+                de la littérature scientifique pour vous aider à construire
+                votre patrimoine. Balamer n'a aucun intérêt à vous proposer des
+                produits compliqués, et vous oriente vers des solutions simples,
+                qui prennent en compte votre tolérance au risque, vos besoins &
+                envies, et vos convictions.
+              </Box>
+              <Box as='p' variant='styles.p' sx={{ mb: [0] }}>
+                Balamer s'appuie sur de la recherche quantitative et l'analyse
+                de la littérature scientifique pour vous aider à construire
+                votre patrimoine. Balamer n'a aucun intérêt à vous proposer des
+                produits compliqués, et vous oriente vers des solutions simples,
+                qui prennent en compte votre tolérance au risque, vos besoins &
+                envies, et vos convictions.
               </Box>
             </Box>
           </Column>
@@ -230,9 +236,10 @@ const Index = () => {
               RECHERCHE
             </Box>
             <Box as='p'>
-              We study fundamental climate science topics relevant to both
-              mitigation and adaptation, and we analyze the implementation of
-              climate programs to ensure that they line up with the science.
+              Balamer propose des solutions qui s'appuient sur des données
+              factuelles, la littérature scientifique et sa propre recherche.
+              C'est la solution pour investir avec sa logique, et éviter les
+              biais cognitifs.
             </Box>
           </Box>
         </Column>
@@ -249,9 +256,10 @@ const Index = () => {
               REGLES
             </Box>
             <Box as='p'>
-              We work with companies, nonprofits, and government organizations
-              to develop robust climate programs, and we collaborate with
-              journalists to raise public awareness and promote accountability.
+              Balamer utilise une méthodologie est simple et transparente. Elle
+              permet de rester calme et rationnel, afin de prendre les bonnes
+              décisions à des problématiques récurrentes : combien investir,
+              quand vendre...
             </Box>
           </Box>
         </Column>
@@ -268,10 +276,10 @@ const Index = () => {
               FORFAIT
             </Box>
             <Box>
-              We build open tools and resources to surface critical dimensions
-              of climate solutions with interactive data and visuals, and we
-              contribute to high-leverage open science and open source
-              ecosystems.
+              En facturant au forfait, et non pas de commissions, Balamer
+              supprime un maximum de conflits d'intérêts. Cela offre la
+              possibilité d'aller vers la simplicité et vers ce qui sert votre
+              performance.
             </Box>
           </Box>
         </Column>
@@ -299,9 +307,9 @@ const Index = () => {
               suffix={<RotatingArrow sx={{ color: 'red' }} />}
             >
               <span>
-                Browse our
+                Lire les
                 <br />
-                latest research
+                derniers articles de recherche
               </span>
             </Button>
           </Box>
@@ -314,7 +322,7 @@ const Index = () => {
               suffix={<RotatingArrow sx={{ color: 'yellow' }} />}
             >
               <span>
-                Read our press <br /> coverage
+                Lire notre <br /> blog
               </span>
             </Button>
           </Box>
@@ -341,7 +349,7 @@ const Index = () => {
                 textTransform: 'uppercase',
               }}
             >
-              Research highlights
+              Dernières recherches
             </Box>
             {highlights.map((d, i) => (
               <Button
@@ -367,7 +375,7 @@ const Index = () => {
                 color: 'red',
               }}
             >
-              Press highlights
+              Les articles de blog
             </Box>
             {press.map((d, i) => (
               <Button
@@ -391,7 +399,7 @@ const Index = () => {
       <Row sx={{ mt: [4, 5, 6, 7] }}>
         <Column start={[1, 2]} width={[6, 10]}>
           <Box as='h2' variant='styles.h2' sx={{ my: [0, 0, 0] }}>
-            Explore more
+            En savoir plus
           </Box>
         </Column>
       </Row>
@@ -439,7 +447,7 @@ const Index = () => {
                     ...sx.highlight,
                   }}
                 >
-                  Annual report
+                  Travailler avec Balamer
                 </Box>
                 <Button
                   href='https://files.carbonplan.org/CarbonPlan-Annual-Report-2023.pdf'
@@ -447,7 +455,7 @@ const Index = () => {
                   sx={{ mb: [3] }}
                   suffix={<RotatingArrow />}
                 >
-                  Our 2023 in review
+                  Prendre RDV téléphonique
                 </Button>
                 <Box
                   sx={{
