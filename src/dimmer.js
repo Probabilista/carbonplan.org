@@ -7,7 +7,7 @@ const Dimmer = ({ sx, ...props }) => {
   const [colorMode, setColorMode] = useColorMode()
 
   const toggle = useCallback(() => {
-    setColorMode(colorMode === 'light' ? 'dark' : 'light')
+    setColorMode(colorMode === 'light' ? 'light' : 'light')
   }, [colorMode])
 
   return (

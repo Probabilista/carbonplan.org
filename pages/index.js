@@ -70,11 +70,7 @@ const Index = () => {
               >
                 Balamer est une société de recherche et de conseil en
                 investissements finançiers indépendante au sens de la directive
-                MIF2. La société s'appuie sur la finance comportementale, la
-                logique et les données pour développer une approche financière
-                qui produira des rendements réels nettement plus élevés que ceux
-                de la plupart des investisseurs pour le niveau de risque
-                souhaité.
+                MIF2.
               </Box>
             </Column>
           </Row>
@@ -216,7 +212,7 @@ const Index = () => {
       <Row sx={{ mt: [4, 5, 6, 7] }}>
         <Column start={[1, 2]} width={[6, 3]}>
           <Box as='h2' variant='styles.h2' sx={{ my: [0, 0, 0] }}>
-            How we work
+            Comment Balamer travaille
           </Box>
         </Column>
       </Row>
@@ -231,7 +227,7 @@ const Index = () => {
                 color: 'red',
               }}
             >
-              RESEARCH
+              RECHERCHE
             </Box>
             <Box as='p'>
               We study fundamental climate science topics relevant to both
@@ -250,7 +246,7 @@ const Index = () => {
                 color: 'yellow',
               }}
             >
-              POLICY
+              REGLES
             </Box>
             <Box as='p'>
               We work with companies, nonprofits, and government organizations
@@ -269,7 +265,7 @@ const Index = () => {
                 color: 'teal',
               }}
             >
-              SOFTWARE
+              FORFAIT
             </Box>
             <Box>
               We build open tools and resources to surface critical dimensions
